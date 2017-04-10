@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "448234559323",
+    "firebase_url": "https://rico-93688.firebaseio.com",
+    "project_id": "rico-93688",
+    "storage_bucket": "rico-93688.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448234559323:android:4478f33bebffae59",
+        "android_client_info": {
+          "package_name": "com.project.geekahr.ricoproyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448234559323-cqjvc9p6r0vpr20tjfjlr90fusif4sie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.geekahr.ricoproyecto",
+            "certificate_hash": "136335586C5E59198E1611539CBC756B8B1141DF"
+          }
+        },
+        {
+          "client_id": "448234559323-fbo2h50aqh4jrb7ig6j295aiqh4e4gtk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.geekahr.ricoproyecto",
+            "certificate_hash": "8180D925CF759CFD08893FA5070C9E877BB5A11D"
+          }
+        },
+        {
+          "client_id": "448234559323-t8brj49q9gd7tkloc12udqvjlrirqhg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBniiO_sXs3mUbo7lvCNYm_-JLNwIryUNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448234559323-t8brj49q9gd7tkloc12udqvjlrirqhg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

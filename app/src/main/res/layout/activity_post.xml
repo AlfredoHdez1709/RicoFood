@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.geekahr.ricoproyecto.Activity.PostActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/add_btn"
+                android:scaleType="centerCrop"
+                android:background="#00ffffff"
+                android:adjustViewBounds="true"
+                android:id="@+id/imageSelect" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Nombre del restaurante"
+                android:ems="10"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/titleField"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/descrField"
+                android:layout_alignStart="@+id/descrField" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:hint="Descripcion del restaurante"
+                android:layout_below="@+id/titleField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/descrField"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:hint="Latitud"
+                android:layout_below="@+id/titleField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Latitud"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:hint="Longitud"
+                android:layout_below="@+id/titleField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Longitud"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:hint="Direcion del restaurante"
+                android:layout_below="@+id/titleField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/direccionField"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:hint="Numero Telefonico"
+                android:layout_below="@+id/titleField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/phoneField"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:hint="Horario"
+                android:layout_below="@+id/titleField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/HorarioField"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:hint="Menu"
+                android:layout_below="@+id/titleField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/MenuField"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <Button
+                android:text="Enviar"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/send" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
